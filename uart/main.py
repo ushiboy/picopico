@@ -10,4 +10,5 @@ while True:
         buf += uart.read(1)
     if len(buf) > 0:
         print(buf)
-    time.sleep_ms(100)
+        #uart.write(buf)
+    time.sleep(1)
